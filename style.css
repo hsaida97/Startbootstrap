@@ -9,51 +9,61 @@ body {
 header {
   padding: 30px 0;
 }
-header .imgbox {
-  width: 180px;
+header posi .imgbox {
+  width: 200px;
 }
-header nav a {
+header posi nav a {
   font-size: 17px;
   color: white;
   margin-right: 30px;
 }
 
 #welcome {
-  padding: 50px 0;
-  color: white;
-}
-#welcome .imgbox {
-  position: absolute;
-  top: -80px;
-  z-index: -1;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-}
-#welcome .box {
   padding: 90px 0;
+  color: white;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 900px;
+  position: absolute;
+  top: -100px;
 }
 #welcome .box h1 {
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 400;
   font-style: italic;
-  line-height: 2.2;
 }
 #welcome .box h2 {
   font-size: 75px;
-  font-weight: 600;
-  margin: 5px 0 20px;
+  font-weight: 700;
+  margin: 20px 0;
 }
 #welcome .box .btn {
   background-color: #ffc800;
   width: 220px;
-  height: 70px;
+  height: 65px;
   padding: 15px 30px;
-  margin: 50px 0;
+  margin: 50px 0 0;
+  cursor: pointer;
 }
 #welcome .box .btn h4 {
   font-size: 20px;
   font-weight: 700;
   color: white;
+}
+
+#services {
+  padding: 70px 0;
+}
+#services .col-md-12 {
+  z-index: 1;
+}
+#services .col-md-12 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 2;
+}
+#services .col-md-12 h3 {
+  font-size: 20px;
+  font-style: italic;
 }/*# sourceMappingURL=style.css.map */

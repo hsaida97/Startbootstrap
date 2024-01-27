@@ -27,7 +27,7 @@ body {
 	line-height: 1;
 }
 body::-webkit-scrollbar{
-	display: none
+	display: scroll
 }
 ol, ul {
 	list-style: none;
