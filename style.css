@@ -1,7 +1,8 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-body img {
+
+.imgbox img {
   width: 100%;
 }
 
@@ -21,18 +22,15 @@ header .col-md-12 .menu nav a {
 #welcome .col-md-12 {
   padding: 90px 0;
   color: white;
-  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+}
+#welcome .col-md-12 .imgbox {
+  position: absolute;
   z-index: -1;
-  top: -10px;
-  left: 0px;
-  height: 800px;
+  top: -260px;
 }
 #welcome .col-md-12 .box {
   padding: 90px 0;
-  height: 270px;
+  height: 700px;
 }
 #welcome .col-md-12 .box h1 {
   font-size: 40px;
@@ -82,12 +80,50 @@ header .col-md-12 .menu nav a {
   background-color: #ffc800;
 }
 #services .box h2 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 700;
   margin: 15px 0 20px;
+  line-height: 1.2;
 }
 #services .box h4 {
   font-size: 18px;
   font-style: italic;
   color: #6c757d;
+  line-height: 1.75;
+}
+
+#portfolio {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+#portfolio h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 2;
+}
+#portfolio h3 {
+  font-size: 18px;
+  font-style: italic;
+  color: #6c757d;
+  line-height: 1.2;
+  margin: 0 0 50px;
+}
+#portfolio .box {
+  background-color: white;
+  margin: 15px 2px;
+  padding: 0 0 30px;
+}
+#portfolio .box h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+#portfolio .box h5 {
+  font-size: 18px;
+  font-style: italic;
+  color: #6c757d;
+}
+#portfolio .box .imgbox img:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
