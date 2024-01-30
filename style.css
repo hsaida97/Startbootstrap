@@ -228,4 +228,44 @@ header .col-md-12 .menu nav a:hover {
 }
 #about .left {
   margin-left: 160px;
+}
+
+#team {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+#team h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 2;
+}
+#team h3 {
+  font-size: 18px;
+  font-style: italic;
+  color: #6c757d;
+  line-height: 1.2;
+}
+#team p {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.5;
+  margin: 80px 0;
+  width: 750px;
+}
+#team .box .imgbox {
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+  border: 7px solid #eaedf0;
+  margin: 50px 80px 0;
+}
+#team .box .textbox h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+#team .box .textbox h4 {
+  font-size: 18px;
+  font-style: italic;
+  color: #6c757d;
 }/*# sourceMappingURL=style.css.map */
