@@ -24,8 +24,21 @@
             font-style: italic
             color: #6c757d
         .imgbox
-            img
-                &:hover
-                    opacity: 0.8
-                    cursor: pointer
-
+            position: relative
+            .icon
+                i
+                    width: 100%
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    font-size: 60px
+                    color: #ffff
+                    position: absolute
+                    top: 0
+                    bottom: 0
+                    opacity: 0
+                    &:hover
+                        background-color: #ffbb00
+                        opacity: 0.9
+                        transition: 0.5s
+                        cursor: pointer

@@ -1,14 +1,14 @@
 #welcome
-    .col-md-12
-        padding: 90px 0
-        color: #ffff
-        .imgbox
-            position: absolute
-            z-index: -1
-            top: -260px
-        .box
-            padding: 90px 0
-            height: 700px
+    background-image: url(/assets/header-bg.jpg)
+    background-position: center center
+    background-size: cover
+    .box
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 700px
+        .textbox
+            color: #ffff
             h1
                 font-size: 40px
                 font-weight: 400
@@ -20,11 +20,15 @@
             .btn
                 background-color: #ffc800
                 width: 220px
-                height: 65px
+                height: 70px
                 padding: 15px 30px
                 margin: 50px 0 0
-                cursor: pointer
+                &:hover
+                    cursor: pointer
+                    background-color: #d9aa00
                 h4
                     font-size: 20px
                     font-weight: 700
                     color: #ffff
+                    &:hover
+                        cursor: pointer
