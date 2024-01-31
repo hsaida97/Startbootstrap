@@ -343,4 +343,38 @@ header .col-md-12 .menu nav a:hover {
   font-weight: 700;
   color: white;
   opacity: 0.6;
+}
+
+footer .menu a {
+  color: #000;
+}
+footer .menu a:hover {
+  cursor: pointer;
+  color: #000;
+}
+footer .menu span {
+  margin: 0 10px;
+}
+footer .menu span:hover {
+  cursor: pointer;
+  color: #000;
+}
+footer .menu .minibox {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+footer .menu .minibox .icon i {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  padding: 10px 14px;
+  margin: 10px;
+  background-color: #212529;
+  font-size: 17px;
+  color: white;
+}
+footer .menu .minibox .icon i:hover {
+  cursor: pointer;
+  opacity: 0.3;
 }/*# sourceMappingURL=style.css.map */
