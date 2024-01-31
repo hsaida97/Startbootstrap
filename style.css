@@ -9,6 +9,10 @@ body {
   width: 100%;
 }
 
+section {
+  padding: 80px 0;
+}
+
 header .col-md-12 {
   padding: 20px 0;
   background-color: #212529;
@@ -81,9 +85,6 @@ header .col-md-12 .menu nav a:hover {
   cursor: pointer;
 }
 
-#services {
-  padding: 30px 0;
-}
 #services h1 {
   font-size: 48px;
   font-weight: 700;
@@ -118,7 +119,6 @@ header .col-md-12 .menu nav a:hover {
 }
 
 #portfolio {
-  padding: 80px 0;
   background-color: #f8f9fa;
 }
 #portfolio h1 {
@@ -170,9 +170,6 @@ header .col-md-12 .menu nav a:hover {
   cursor: pointer;
 }
 
-#about {
-  padding: 80px 0;
-}
 #about h1 {
   font-size: 45px;
   font-weight: 700;
@@ -231,7 +228,6 @@ header .col-md-12 .menu nav a:hover {
 }
 
 #team {
-  padding: 80px 0;
   background-color: #f8f9fa;
 }
 #team h1 {
@@ -249,14 +245,14 @@ header .col-md-12 .menu nav a:hover {
   font-size: 18px;
   color: #6c757d;
   line-height: 1.5;
-  margin: 80px 0;
+  margin: 30px 0;
   width: 750px;
 }
 #team .box .imgbox {
   width: 220px;
   height: 220px;
   border-radius: 100%;
-  border: 7px solid #eaedf0;
+  border: 7px solid #dfe0e1;
   margin: 50px 80px 0;
 }
 #team .box .textbox h2 {
@@ -268,4 +264,53 @@ header .col-md-12 .menu nav a:hover {
   font-size: 18px;
   font-style: italic;
   color: #6c757d;
+}
+#team .box .minibox {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+#team .box .minibox .icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #212529;
+  font-size: 14px;
+  color: white;
+}
+
+#clients {
+  padding: 50px 0;
+  height: 150px;
+}
+#clients .imgbox {
+  width: 180px;
+  height: 110px;
+  margin-right: 80px;
+}
+#clients .x {
+  width: 100px;
+  height: 100px;
+  margin-right: 80px;
+}
+
+#contactus {
+  background-color: #212529;
+  background-image: url(/assets/map-image.png);
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+#contactus h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 2;
+}
+#contactus h3 {
+  font-size: 18px;
+  font-style: italic;
+  color: #6c757d;
+  line-height: 1.2;
 }/*# sourceMappingURL=style.css.map */
