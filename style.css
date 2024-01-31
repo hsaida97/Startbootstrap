@@ -313,4 +313,34 @@ header .col-md-12 .menu nav a:hover {
   font-style: italic;
   color: #6c757d;
   line-height: 1.2;
+}
+#contactus .box {
+  margin: 50px 0 25px;
+}
+#contactus .box input {
+  width: 550px;
+  height: 60px;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+#contactus .box2 {
+  margin: 60px 0 25px;
+}
+#contactus .box2 textarea {
+  width: 550px;
+  height: 220px;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+#contactus .btn {
+  background-color: #ffc800;
+  width: 230px;
+  height: 70px;
+  padding: 20px 30px;
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */
