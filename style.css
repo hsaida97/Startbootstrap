@@ -232,6 +232,26 @@ header .menu nav a:hover {
   transition: 0.5s;
   cursor: pointer;
 }
+@media screen and (max-width: 992px) {
+  #portfolio .box .imgbox {
+    width: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  #portfolio .textbox h1 {
+    font-size: 40px;
+  }
+  #portfolio .textbox h3 {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  #portfolio .box {
+    margin: 20px 50px 0;
+  }
+  #portfolio .box .imgbox {
+    width: auto;
+  }
+}
 
 #about h1 {
   font-size: 45px;
