@@ -116,9 +116,7 @@ header .menu nav a:hover {
 }
 #welcome .box .textbox .btn {
   background-color: #ffc800;
-  width: 220px;
-  height: 70px;
-  padding: 15px 30px;
+  padding: 18px 40px;
   margin: 50px 0 0;
 }
 #welcome .box .textbox .btn:hover {
@@ -133,6 +131,14 @@ header .menu nav a:hover {
 #welcome .box .textbox .btn h4:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 576px) {
+  #welcome .box .textbox h1 {
+    font-size: 30px;
+  }
+  #welcome .box .textbox h2 {
+    font-size: 55px;
+  }
+}
 
 #services h1 {
   font-size: 48px;
@@ -145,7 +151,7 @@ header .menu nav a:hover {
   color: #6c757d;
 }
 #services .box {
-  margin: 70px 0;
+  margin: 50px 0;
 }
 #services .box .icon i {
   font-size: 65px;
@@ -165,6 +171,14 @@ header .menu nav a:hover {
   font-style: italic;
   color: #6c757d;
   line-height: 1.75;
+}
+@media screen and (max-width: 768px) {
+  #services h3 {
+    margin-bottom: 50px;
+  }
+  #services .box {
+    margin: 15px 0;
+  }
 }
 
 #portfolio {
