@@ -368,6 +368,9 @@ header .menu nav a:hover {
   #about .right {
     margin-right: auto;
   }
+  #about .right .textbox {
+    width: 350px;
+  }
   #about .right .textbox h2, #about .right .textbox h4 {
     font-size: 30px;
   }
@@ -387,6 +390,7 @@ header .menu nav a:hover {
   }
   #about .left .textbox {
     text-align: start;
+    width: 350px;
   }
   #about .left .textbox h2, #about .left .textbox h4 {
     font-size: 30px;
@@ -404,7 +408,6 @@ header .menu nav a:hover {
   #about .story {
     display: flex;
     justify-content: flex-start;
-    margin-top: 30px;
   }
   #about .story .yellow {
     width: 90px;
@@ -434,15 +437,17 @@ header .menu nav a:hover {
   font-size: 18px;
   color: #6c757d;
   line-height: 1.5;
-  margin: 30px 0;
-  width: 750px;
+  margin: 30px 20px;
+  width: 800px;
+}
+#team .box {
+  margin: 50px 0 0;
 }
 #team .box .imgbox {
   width: 220px;
   height: 220px;
   border-radius: 100%;
   border: 7px solid #dfe0e1;
-  margin: 50px 80px 0;
 }
 #team .box .textbox h2 {
   font-size: 28px;
@@ -469,20 +474,35 @@ header .menu nav a:hover {
   font-size: 14px;
   color: white;
 }
+@media screen and (max-width: 768px) {
+  #team p {
+    margin: 30px;
+    font-size: 15px;
+  }
+  #team .box {
+    margin: 40px 0 0;
+  }
+}
 
 #clients {
   padding: 50px 0;
-  height: 150px;
 }
-#clients .imgbox {
-  width: 180px;
-  height: 110px;
-  margin-right: 80px;
+#clients .box {
+  padding: 0 50px;
 }
-#clients .x {
+#clients .box .imgbox {
+  width: 150px;
+}
+#clients .box .microsoft {
+  width: 170px;
+}
+#clients .box .ibm {
   width: 100px;
-  height: 100px;
-  margin-right: 80px;
+}
+@media screen and (max-width: 768px) {
+  #clients .box .imgbox {
+    margin-top: 30px;
+  }
 }
 
 #contactus {
@@ -507,7 +527,7 @@ header .menu nav a:hover {
   margin: 50px 0 25px;
 }
 #contactus .box input {
-  width: 550px;
+  width: 650px;
   height: 60px;
   margin: 10px 0;
   font-size: 20px;
@@ -517,7 +537,7 @@ header .menu nav a:hover {
   margin: 60px 0 25px;
 }
 #contactus .box2 textarea {
-  width: 550px;
+  width: 600px;
   height: 220px;
   font-size: 20px;
   padding: 20px;
@@ -532,6 +552,35 @@ header .menu nav a:hover {
   font-weight: 700;
   color: white;
   opacity: 0.6;
+}
+@media screen and (max-width: 992px) {
+  #contactus .box input {
+    width: 340px;
+    height: 60px;
+  }
+  #contactus .box2 textarea {
+    width: 340px;
+    height: 220px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #contactus h1 {
+    font-size: 40px;
+  }
+  #contactus .box {
+    margin: 50px 0 0;
+  }
+  #contactus .box input {
+    width: 530px;
+    height: 60px;
+  }
+  #contactus .box2 {
+    margin: 10px 0 40px;
+  }
+  #contactus .box2 textarea {
+    width: 530px;
+    height: 200px;
+  }
 }
 
 footer .menu a {

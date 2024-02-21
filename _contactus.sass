@@ -16,7 +16,7 @@
     .box
         margin: 50px 0 25px
         input
-            width: 550px
+            width: 650px
             height: 60px
             margin: 10px 0
             font-size: 20px
@@ -24,7 +24,7 @@
     .box2
         margin: 60px 0 25px
         textarea
-            width: 550px
+            width: 600px
             height: 220px
             font-size: 20px
             padding: 20px
@@ -38,3 +38,25 @@
         font-weight: 700
         color: #ffff
         opacity: 0.6
+    @media screen and ( max-width: 992px )
+        .box
+            input
+                width: 340px
+                height: 60px
+        .box2
+            textarea
+                width: 340px
+                height: 220px
+    @media screen and ( max-width: 768px )
+        h1
+            font-size: 40px
+        .box
+            margin: 50px 0 0
+            input
+                width: 530px
+                height: 60px
+        .box2
+            margin: 10px 0 40px
+            textarea
+                width: 530px
+                height: 200px
