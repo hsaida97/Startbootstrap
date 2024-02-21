@@ -9,7 +9,7 @@
         color: #6c757d
         line-height: 1.2
     .box
-        margin-top: 70px
+        margin-top: 50px
         .textbox
             width: 350px
             margin: 0 30px
@@ -27,6 +27,10 @@
             height: 160px
             border-radius: 100%
             border: 7px solid #eaedf0
+    .story
+        display: flex
+        justify-content: center
+        margin-top: 70px
         .yellow
             background-color: #ffc800
             padding: 30px 40px
@@ -41,5 +45,82 @@
                 line-height: 1.3
     .right
         margin-right: 150px
+        display: flex
+        justify-content: flex-end
+        .textbox
+            text-align: start
     .left
         margin-left: 160px
+        display: flex
+        justify-content: flex-start
+        .textbox
+            text-align: end
+    @media screen and ( max-width: 992px )
+        .box
+            margin-top: 80px
+            .textbox
+                width: 230px
+                margin: 0 30px
+                h2,h4
+                    font-size: 25px
+                p
+                    font-size: 17px
+                    line-height: 1.6
+            .imgbox
+                width: 100px
+                height: 100px
+        .right
+            margin-right: 20px
+        .left
+            margin-left: 20px
+        .story
+            .yellow
+                padding: 10px 5px 0 10px
+                width: 100px
+                height: 100px
+
+    @media screen and ( max-width: 767px )
+        h1
+            font-size: 50px
+            font-weight: 700
+        h3
+            font-size: 20px
+            margin-bottom: 35px
+        .right
+            margin-right: auto
+            .textbox
+                h2,h4
+                    font-size: 30px
+                p
+                    font-size: 20px
+                    line-height: 1.4
+            .imgbox
+                width: 90px
+                height: 90px
+                border-radius: 100%
+                border: 7px solid #eaedf0
+        .left
+            margin-left: auto
+            flex-direction: row-reverse
+            .textbox
+                text-align: start
+                h2,h4
+                    font-size: 30px
+                p
+                    font-size: 20px
+                    line-height: 1.4
+            .imgbox
+                width: 90px
+                height: 90px
+                border-radius: 100%
+                border: 7px solid #eaedf0
+        .story
+            display: flex
+            justify-content: flex-start
+            margin-top: 30px
+            .yellow
+                width: 90px
+                height: 90px
+                padding: 10px 5px 0 10px
+                h5
+                    font-size: 15px

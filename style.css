@@ -20,9 +20,10 @@ header .menu {
   z-index: 1;
   right: 0;
   left: 0;
+  height: 70px;
 }
 header .menu .imgbox {
-  width: 170px;
+  width: 150px;
   margin-left: 120px;
 }
 header .menu .btn {
@@ -265,7 +266,7 @@ header .menu nav a:hover {
   line-height: 1.2;
 }
 #about .box {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 #about .box .textbox {
   width: 350px;
@@ -289,7 +290,12 @@ header .menu nav a:hover {
   border-radius: 100%;
   border: 7px solid #eaedf0;
 }
-#about .box .yellow {
+#about .story {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+#about .story .yellow {
   background-color: #ffc800;
   padding: 30px 40px;
   width: 160px;
@@ -297,7 +303,7 @@ header .menu nav a:hover {
   border-radius: 100%;
   border: 7px solid #eaedf0;
 }
-#about .box .yellow h5 {
+#about .story .yellow h5 {
   color: white;
   font-size: 20px;
   font-weight: 600;
@@ -305,9 +311,109 @@ header .menu nav a:hover {
 }
 #about .right {
   margin-right: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+#about .right .textbox {
+  text-align: start;
 }
 #about .left {
   margin-left: 160px;
+  display: flex;
+  justify-content: flex-start;
+}
+#about .left .textbox {
+  text-align: end;
+}
+@media screen and (max-width: 992px) {
+  #about .box {
+    margin-top: 80px;
+  }
+  #about .box .textbox {
+    width: 230px;
+    margin: 0 30px;
+  }
+  #about .box .textbox h2, #about .box .textbox h4 {
+    font-size: 25px;
+  }
+  #about .box .textbox p {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  #about .box .imgbox {
+    width: 100px;
+    height: 100px;
+  }
+  #about .right {
+    margin-right: 20px;
+  }
+  #about .left {
+    margin-left: 20px;
+  }
+  #about .story .yellow {
+    padding: 10px 5px 0 10px;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #about h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  #about h3 {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  #about .right {
+    margin-right: auto;
+  }
+  #about .right .textbox h2, #about .right .textbox h4 {
+    font-size: 30px;
+  }
+  #about .right .textbox p {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  #about .right .imgbox {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 7px solid #eaedf0;
+  }
+  #about .left {
+    margin-left: auto;
+    flex-direction: row-reverse;
+  }
+  #about .left .textbox {
+    text-align: start;
+  }
+  #about .left .textbox h2, #about .left .textbox h4 {
+    font-size: 30px;
+  }
+  #about .left .textbox p {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  #about .left .imgbox {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 7px solid #eaedf0;
+  }
+  #about .story {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+  }
+  #about .story .yellow {
+    width: 90px;
+    height: 90px;
+    padding: 10px 5px 0 10px;
+  }
+  #about .story .yellow h5 {
+    font-size: 15px;
+  }
 }
 
 #team {
