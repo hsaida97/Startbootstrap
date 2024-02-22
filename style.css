@@ -583,6 +583,9 @@ header .menu nav a:hover {
   }
 }
 
+footer {
+  padding: 22px 0;
+}
 footer .menu a {
   color: #000;
 }
@@ -600,19 +603,25 @@ footer .menu span:hover {
 footer .menu .minibox {
   display: flex;
   justify-content: center;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 footer .menu .minibox .icon i {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  padding: 10px 14px;
+  padding: 12px 14px;
   margin: 10px;
   background-color: #212529;
-  font-size: 17px;
+  font-size: 15px;
   color: white;
 }
 footer .menu .minibox .icon i:hover {
   cursor: pointer;
   opacity: 0.3;
+}
+@media screen and (max-width: 991px) {
+  footer .menu {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
