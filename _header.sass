@@ -33,13 +33,14 @@ header
                 cursor: pointer
                 &:hover
                     color: #fed136
-    @media screen and ( max-width: 576px )
+    @media screen and ( max-width: 992px )
         .menu
-            height: 100px
-            flex-wrap: wrap
-            .btn
-                left-margin: 50px
-                padding: 6px 10px
+            nav
+                margin-right: 55px
+                a
+                    margin: 0 10px
+            .imgbox
+                margin-left: 40px
     @media screen and ( max-width: 768px )
         .menu
             nav
@@ -49,11 +50,13 @@ header
                 margin-right: 30px
             .imgbox
                 margin-left: 20px
-    @media screen and ( max-width: 992px )
+    @media screen and ( max-width: 576px )
         .menu
-            nav
-                margin-right: 55px
-                a
-                    margin: 0 10px
+            height: 120px
+            flex-wrap: wrap
             .imgbox
+                width: 100px
+            .btn
+                flex-direction: column
+                padding: 6px 10px
                 margin-left: 40px
